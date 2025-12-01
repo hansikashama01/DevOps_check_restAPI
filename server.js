@@ -72,7 +72,7 @@ app.delete("/api/users/:id", async (req, res) => {
 });
 
 app.get('/api/products', (req, res) => {
-    res.send('hello hansika');
+    res.send('hello hansika , student at university of moratuwa ');
 });
 
 const PORT = process.env.PORT || 5000;
