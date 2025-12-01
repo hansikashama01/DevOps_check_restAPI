@@ -71,5 +71,9 @@ app.delete("/api/users/:id", async (req, res) => {
   }
 });
 
+app.get('/api/products', (req, res) => {
+    res.send('hello hansika');
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
