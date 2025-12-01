@@ -77,5 +77,8 @@ app.get('/api/products', (req, res) => {
 app.get('/api/hashz', (req, res) => {
     res.send('hello hansika , student at university of moratuwa ');
 });
+app.get('/api/UOM', (req, res) => {
+    res.send('hello hansika , student at university of moratuwa ');
+});
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
