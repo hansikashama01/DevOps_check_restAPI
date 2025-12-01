@@ -80,5 +80,10 @@ app.get('/api/hashz', (req, res) => {
 app.get('/api/UOM', (req, res) => {
     res.send('ci/cd pipline is working correctly ');
 });
+
+
+app.get('/api/buddi', (req, res) => {
+    res.send('buddi pakaya ');
+});
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
