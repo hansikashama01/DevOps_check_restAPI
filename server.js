@@ -77,8 +77,8 @@ app.get('/api/products', (req, res) => {
 app.get('/api/hashz', (req, res) => {
     res.send('hello hansika , student at university of moratuwa ');
 });
-app.get('/api/UOM', (req, res) => {
-    res.send('ci/cd pipline is working correctly ');
+app.get('/api/tash', (req, res) => {
+    res.send('You know why I like talking to you, Taniya,Because it burns calories…Laughing at your nonsense!');
 });
 
 
