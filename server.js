@@ -75,7 +75,7 @@ app.get('/api/products', (req, res) => {
     res.send('hello hansika , student at university of moratuwa ');
 });
 app.get('/api/hashz', (req, res) => {
-    res.send('hello hansika , student at university of moratuwa ');
+    res.send('hello hansika , hello rukmal ');
 });
 app.get('/api/UOM', (req, res) => {
     res.send('hello hansika , student at university of moratuwa');
