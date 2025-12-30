@@ -82,8 +82,8 @@ app.get('/api/tash', (req, res) => {
 });
 
  
-app.get('/api/buddi', (req, res) => {
-    res.send('buddi pakaya ');
+app.get('/api/chira', (req, res) => {
+    res.send('chira pakaya ');
 });
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
